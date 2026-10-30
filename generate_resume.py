@@ -1,0 +1,216 @@
+resume_html = """<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sai Ram Tummuri - Resume</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @media print {
+      body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+      .no-print { display: none !important; }
+    }
+  </style>
+</head>
+<body class="bg-slate-100 text-slate-800 font-sans p-4 sm:p-8 antialiased">
+  <div class="max-w-4xl mx-auto bg-white shadow-xl rounded-2xl p-8 sm:p-12 border border-slate-200">
+    
+    <!-- Action Bar -->
+    <div class="no-print flex justify-between items-center pb-6 mb-6 border-b border-slate-200">
+      <a href="../../index.html" class="inline-flex items-center gap-2 text-sm font-semibold text-slate-600 hover:text-indigo-600 transition-colors">
+        &larr; Back to Portfolio
+      </a>
+      <button onclick="window.print()" class="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-700 text-white text-sm font-bold rounded-lg shadow transition-all">
+        Print / Save as PDF
+      </button>
+    </div>
+
+    <!-- Header -->
+    <header class="border-b-2 border-indigo-600 pb-6 mb-6">
+      <h1 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">TUMMURI NAGA VEERA VENKATA SAIRAM</h1>
+      <p class="text-lg font-bold text-indigo-600 mt-1">Electronics &amp; Communication Engineering Undergraduate</p>
+      <p class="text-sm font-medium text-slate-600 mt-2">Specializing in Semiconductor Fabrication • Embedded Systems &amp; IoT • Quantum Computing</p>
+      
+      <div class="flex flex-wrap gap-4 text-xs font-semibold text-slate-600 mt-3">
+        <span>📍 Ainavilli, Andhra Pradesh, India</span>
+        <span>📞 +91 91828 55181</span>
+        <span>✉️ <a href="mailto:tummurisairam@gmail.com" class="text-indigo-600 hover:underline">tummurisairam@gmail.com</a></span>
+        <span>🎓 <a href="mailto:624183@student.nitandhra.ac.in" class="text-indigo-600 hover:underline">624183@student.nitandhra.ac.in</a></span>
+        <span>🔗 <a href="https://linkedin.com/in/sairamtummuri" target="_blank" class="text-indigo-600 hover:underline">linkedin.com/in/sairamtummuri</a></span>
+        <span>💻 <a href="https://github.com/624183-NITAP" target="_blank" class="text-indigo-600 hover:underline">github.com/624183-NITAP</a></span>
+      </div>
+    </header>
+
+    <!-- Career Objective -->
+    <section class="mb-6">
+      <h2 class="text-xs font-bold uppercase tracking-widest text-indigo-600 border-b border-slate-200 pb-1 mb-2">Career Objective</h2>
+      <p class="text-sm text-slate-700 leading-relaxed">
+        Motivated third-year Electronics and Communication Engineering student at NIT Andhra Pradesh with deep interests in semiconductor technology, embedded systems, quantum computing, signal processing, and hardware-oriented problem solving. Seeking a summer internship opportunity to apply technical skills, gain hands-on experience in real-time engineering projects, and contribute to research-driven development.
+      </p>
+    </section>
+
+    <!-- Education -->
+    <section class="mb-6">
+      <h2 class="text-xs font-bold uppercase tracking-widest text-indigo-600 border-b border-slate-200 pb-1 mb-3">Education</h2>
+      <div class="space-y-3">
+        <div>
+          <div class="flex justify-between items-baseline">
+            <h3 class="text-sm font-bold text-slate-900">National Institute of Technology Andhra Pradesh</h3>
+            <span class="text-xs font-semibold text-slate-500">2024 – 2028</span>
+          </div>
+          <div class="flex justify-between items-baseline text-xs text-slate-700">
+            <span>B.Tech in Electronics and Communication Engineering</span>
+            <span class="font-bold text-indigo-700">CGPA: 8.0 / 10</span>
+          </div>
+        </div>
+
+        <div>
+          <div class="flex justify-between items-baseline">
+            <h3 class="text-sm font-bold text-slate-900">Board of Intermediate Education, Andhra Pradesh (Class XII)</h3>
+            <span class="text-xs font-semibold text-slate-500">Completed: Jan 2024</span>
+          </div>
+          <div class="flex justify-between items-baseline text-xs text-slate-700">
+            <span>Senior Secondary Education (MPC Stream)</span>
+            <span class="font-bold text-indigo-700">Score: 94.0%</span>
+          </div>
+        </div>
+
+        <div>
+          <div class="flex justify-between items-baseline">
+            <h3 class="text-sm font-bold text-slate-900">Board of Secondary Education, Andhra Pradesh (Class X)</h3>
+            <span class="text-xs font-semibold text-slate-500">Completed: 2022</span>
+          </div>
+          <div class="flex justify-between items-baseline text-xs text-slate-700">
+            <span>Secondary School Certificate</span>
+            <span class="font-bold text-indigo-700">Score: 87.67%</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Technical Skills -->
+    <section class="mb-6">
+      <h2 class="text-xs font-bold uppercase tracking-widest text-indigo-600 border-b border-slate-200 pb-1 mb-2">Technical Skills</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs">
+        <div>
+          <span class="font-bold text-slate-900">Programming:</span> Python, MicroPython, C, MATLAB, LaTeX
+        </div>
+        <div>
+          <span class="font-bold text-slate-900">Hardware &amp; EDA Simulation:</span> MATLAB, Vivado, Keil µVision, Proteus, PSpice, Node-RED, Wokwi, Tinkercad, Clewin5
+        </div>
+        <div>
+          <span class="font-bold text-slate-900">Core Engineering Areas:</span> Embedded Systems, Signal Processing, Network Analysis, Microprocessors, Semiconductor Fabrication
+        </div>
+        <div>
+          <span class="font-bold text-slate-900">Quantum Computing Stack:</span> Qiskit, PennyLane, IBM Quantum Lab &amp; Aer Simulator, Quantum Error Correction
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="mb-6">
+      <h2 class="text-xs font-bold uppercase tracking-widest text-indigo-600 border-b border-slate-200 pb-1 mb-3">Key Engineering Projects</h2>
+      <div class="space-y-3 text-xs">
+        <div>
+          <div class="flex justify-between items-baseline">
+            <h3 class="font-bold text-slate-900">8-Bit Breadboard Computer</h3>
+            <span class="text-slate-500 font-medium">Digital Systems &amp; Computer Architecture</span>
+          </div>
+          <p class="text-slate-700 mt-0.5">
+            Constructing a fully functional 8-bit modular computer from scratch using discrete 7400-series TTL logic ICs on breadboards. Implemented clock module with single-step capability, Program Counter, Memory Address Register (MAR), 16-byte RAM, Instruction Register, 8-bit ALU with adder/subtractor, Accumulator, and control logic sequence generator.
+          </p>
+        </div>
+
+        <div>
+          <div class="flex justify-between items-baseline">
+            <h3 class="font-bold text-slate-900">Signal Detection and Analysis using MATLAB</h3>
+            <span class="text-slate-500 font-medium">Signal Processing &amp; Communications</span>
+          </div>
+          <p class="text-slate-700 mt-0.5">
+            Analyzed, filtered, and processed noisy communication signals in MATLAB. Developed threshold detection algorithms, performed FFT spectrum characterization, and evaluated signal-to-noise ratio (SNR) for detection visualization applications.
+          </p>
+        </div>
+
+        <div>
+          <div class="flex justify-between items-baseline">
+            <h3 class="font-bold text-slate-900">Error Detection System using Digital Logic</h3>
+            <span class="text-slate-500 font-medium">Digital Electronics</span>
+          </div>
+          <p class="text-slate-700 mt-0.5">
+            Implemented parity-based error detection and checking mechanisms utilizing combinational logic circuits, parity generators, and XOR gating trees to ensure data transmission integrity across digital channels.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Internships & Industrial Training -->
+    <section class="mb-6">
+      <h2 class="text-xs font-bold uppercase tracking-widest text-indigo-600 border-b border-slate-200 pb-1 mb-3">Internships &amp; Industrial Training</h2>
+      <div class="space-y-3 text-xs">
+        <div>
+          <div class="flex justify-between items-baseline">
+            <h3 class="font-bold text-slate-900">SPARC–NanoX Semiconductor Fabrication Workshop (Internship)</h3>
+            <span class="text-slate-500 font-medium">October – November 2026</span>
+          </div>
+          <p class="font-semibold text-slate-700">Indian Institute of Technology Hyderabad (IITH) | Dept. of Electrical Engineering</p>
+          <p class="text-slate-600 mt-0.5">
+            Hands-on cleanroom protocol immersion covering silicon wafer processing, photolithography, thin-film deposition (PVD/CVD), chemical wet/dry etching, and physical characterization of microelectronic devices.
+          </p>
+        </div>
+
+        <div>
+          <div class="flex justify-between items-baseline">
+            <h3 class="font-bold text-slate-900">Internet of Things (IoT) Intern</h3>
+            <span class="text-slate-500 font-medium">June – July 2026</span>
+          </div>
+          <p class="font-semibold text-slate-700">Centre of Excellence for Digital Manufacturing &amp; Automation (CoE-DMA), NIT Warangal (with Siemens)</p>
+          <p class="text-slate-600 mt-0.5">
+            Engineered sensor integration and telemetry pipelines using ESP32 and microcontrollers. Established secure MQTT broker communications and integrated Node-RED automation workflows for industrial automation.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications & Training -->
+    <section class="mb-6">
+      <h2 class="text-xs font-bold uppercase tracking-widest text-indigo-600 border-b border-slate-200 pb-1 mb-2">Certifications &amp; Summer Schools</h2>
+      <ul class="list-disc list-inside text-xs text-slate-700 space-y-1">
+        <li><span class="font-bold text-slate-900">CeNSE Summer School 2026</span> – Centre for Nano Science and Engineering, IISc Bengaluru</li>
+        <li><span class="font-bold text-slate-900">WISER Summer School 2026</span> – Advanced Semiconductor Materials &amp; Quantum Physics</li>
+        <li><span class="font-bold text-slate-900">Qiskit Global Summer School 2025</span> – IBM Quantum (Quantum Algorithms &amp; Simulation)</li>
+        <li><span class="font-bold text-slate-900">Foundations of Quantum Error Correction</span> – IBM Quantum (Stabilizer codes, syndrome detection)</li>
+        <li><span class="font-bold text-slate-900">Quantum Computing Workshop</span> – Techobytes Technologies &amp; E-Cell IIT Hyderabad</li>
+      </ul>
+    </section>
+
+    <!-- Achievements & Leadership -->
+    <section>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-xs">
+        <div>
+          <h2 class="text-xs font-bold uppercase tracking-widest text-indigo-600 border-b border-slate-200 pb-1 mb-2">Honors &amp; Achievements</h2>
+          <ul class="list-disc list-inside text-slate-700 space-y-1">
+            <li><span class="font-bold text-slate-900">Rank 13 Nationwide</span> – IISc × Qiskit Fall Fest 2025 (Eigen Trails)</li>
+            <li><span class="font-bold text-slate-900">Qualified ATF 2025 Stage-2</span> Coding Assessment (Top 8% nationwide)</li>
+          </ul>
+        </div>
+        <div>
+          <h2 class="text-xs font-bold uppercase tracking-widest text-indigo-600 border-b border-slate-200 pb-1 mb-2">Positions of Responsibility</h2>
+          <ul class="list-disc list-inside text-slate-700 space-y-1">
+            <li><span class="font-bold text-slate-900">Executive Member</span> – ECE Association, NIT Andhra Pradesh</li>
+            <li><span class="font-bold text-slate-900">Joint Secretary</span> – Brindavanam Club, NIT Andhra Pradesh</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+  </div>
+</body>
+</html>
+"""
+
+with open("public/assets/resume/sai_ram_tummuri_resume.html", "w", encoding="utf-8") as f:
+    f.write(resume_html)
+print("Resume HTML generated!")
+

@@ -1,161 +1,218 @@
-# cafe-portfolio
-# ☕ aschauhan-dev cafe
+# Sai Ram Tummuri — Personal Engineering & Quantum Computing Portfolio
 
-> *Brewing clean code & community growth by the cup.*
+[![NIT Andhra Pradesh](https://img.shields.io/badge/NIT%20Andhra%20Pradesh-B.Tech%20ECE%20(2024--2028)-1e3a8a?style=for-the-badge&logo=googlescholar&logoColor=white)](https://www.nitandhra.ac.in)
+[![CGPA](https://img.shields.io/badge/CGPA-8.0%2F10-10b981?style=for-the-badge)](public/assets/resume/sai_ram_tummuri_resume.html)
+[![National Rank 13](https://img.shields.io/badge/IISc%20%C3%97%20Qiskit-Rank%2013%20Nationwide-f59e0b?style=for-the-badge&logo=ibm&logoColor=white)](https://github.com/624183-NITAP)
+[![Top 8% Nationwide](https://img.shields.io/badge/ATF%202025-Top%208%25%20Nationwide-8b5cf6?style=for-the-badge)](https://github.com/624183-NITAP)
 
-[![Live Site](https://img.shields.io/badge/Live-aschauhan--dev--cafe-c48b52?style=for-the-badge&logo=coffeescript&logoColor=white)](https://mraschauhan.github.io/aschauhan-dev-cafe/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-345240?style=for-the-badge)](LICENSE)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-26160c?style=for-the-badge)](#)
+> *"Exploring the Intersection of Electronics, Semiconductor Technology & Quantum Computing."*
+
+A premium, interactive personal portfolio website built for **Sai Ram Tummuri** — undergraduate in **Electronics and Communication Engineering (ECE)** at the **National Institute of Technology Andhra Pradesh (NIT AP)**.
+
+---
+
+## ⚡ Core Architectural Foundation: Two Distinct Technical Domains
+
+This website is engineered around two separate technical domains with distinct visual identities, navigation hierarchies, simulators, projects, and credential registries:
 
 ```text
-    (  )   (   )  )
-     ) (   )  (  (
-     ( )  (    ) )
-     _____________
-    <_____________> ___
-    |             |/ _ \
-    |  ASCHAUHAN  | | | |
-    |   - DEV -   |_| | |
-    |    CAFE     |\___/
-    \             /
-     `-----------'
+/
+├── Home & Dual-Portal Launchpad
+├── About & Verified Academic Ledger
+│
+├── DOMAIN 01 — ECE ENGINEERING (Gold & Emerald Cleanroom Theme)
+│   ├── Semiconductor Technology & Microfabrication
+│   │   └── Interactive 8-Stage Silicon Wafer Cleanroom Simulator
+│   ├── Embedded Systems & Industrial IoT Telemetry (CoE-DMA Siemens)
+│   ├── Digital Electronics & Computer Architecture
+│   │   └── Interactive 8-Bit Breadboard Computer Bus Simulator
+│   ├── Signal Processing & Communication Systems
+│   │   └── Live Real-Time HTML5 Canvas Oscilloscope & Spectrum Analyzer
+│   ├── Verified ECE Projects Gallery (Filterable)
+│   └── ECE Technical Skills Matrix
+│
+├── DOMAIN 02 — QUANTUM COMPUTING (Deep Void Violet & Cyan Hilbert Theme)
+│   ├── Quantum Information Science Profile
+│   ├── Quantum Technologies & Stack
+│   │   └── Interactive 2-Qubit Circuit & 3D Rotating Bloch Sphere Simulator
+│   ├── Verified Quantum Certifications Gallery (IBM Quantum, CeNSE IISc, WISER)
+│   ├── National Quantum Achievements Timeline (Rank 13 IISc, ATF Stage-2)
+│   ├── Quantum Projects & Research Case Studies (QEC, Grover, VQC)
+│   └── Long-Term Quantum Research Agenda
+│
+├── Professional Experience & Campus Leadership Timeline
+├── Engineering Collaboration Docket (Dynamic Ticket & AJAX Dispatch)
+├── Cleanroom & Lab Logbook (Persistent Peer Blackboard)
+└── Official Resume Viewer & Modal System
 ```
 
-Welcome to **aschauhan-dev cafe**, an artisanal coffeehouse-themed developer portfolio crafted for **Adarsh Singh Chauhan** — Computer Science & Engineering undergraduate at **Barkatullah University Institute of Technology (BUIT), Bhopal** (Batch 2025–2029).
+---
 
-This project reimagines the traditional developer portfolio as an interactive cafe experience, complete with ambient sound synthesis, a working barista order pad with thermal receipts, and a community corkboard.
+## 🔬 Key Interactive Features
+
+### 1. 🎛️ Procedural Web Audio Engine (Pure Web Audio API)
+- **Zero MP3 / external audio dependencies** — synthesized on-the-fly using the browser's native `AudioContext`.
+- **Mode 1: Cleanroom Laminar Airflow & 60Hz Carrier Hum**: Procedural pink noise passed through a biquad lowpass filter (~160Hz) with subtle 60Hz harmonic hum.
+- **Mode 2: Quantum Coherence & Wavefunction Chirp**: Procedurally generated 432Hz harmonic sine wave with slow LFO vibrato.
+- **Mode 3: Mute**: Silence with animated sound wave status indicator.
+- **Relay Click Chimes**: Synthesized feedback on gate toggles and docket submission.
+
+### 2. 🧮 Interactive 2-Qubit Circuit & 3D Canvas Bloch Sphere
+- Direct in-browser simulation of 2-qubit Hilbert space transformations ($|q_0 q_1\rangle$).
+- Clickable gates: Hadamard ($H$), Pauli-X (Bit-flip), Pauli-Z (Phase-flip), and $CNOT$ entangling gate.
+- Real-time computation of state vector:
+  $$|\psi\rangle = \alpha|00\rangle + \beta|01\rangle + \gamma|10\rangle + \delta|11\rangle$$
+- Live probability distribution bars ($|\alpha|^2, |\beta|^2, |\gamma|^2, |\delta|^2$).
+- HTML5 Canvas projection of the 3D rotating Bloch Sphere showing state vector $\vec{r} = (\langle X \rangle, \langle Y \rangle, \langle Z \rangle)$.
+
+### 3. 🧪 8-Stage Semiconductor Cleanroom Fabrication Simulator
+- Interactive process step-through:
+  1. Wafer Cleaning (RCA-1 / RCA-2)
+  2. Thermal Oxidation (Deal-Grove $\text{SiO}_2$ growth)
+  3. Photolithography (UV 365nm mask alignment & resist development)
+  4. Etching (Wet BOE vs Reactive Ion Etching RIE)
+  5. Thin-Film Deposition (PVD Magnetron Sputtering & CVD)
+  6. Doping & Ion Implantation
+  7. Metallization & Rapid Thermal Annealing (RTA)
+  8. Chemical Mechanical Planarization (CMP) & Metrology
+- Highlights verified training at **SPARC–NanoX, IIT Hyderabad** and **CeNSE, IISc Bengaluru**.
+
+### 4. 📟 Live Signal Processing Oscilloscope (Canvas 2D)
+- Continuous mathematical wave renderer ($A \sin(2\pi f t)$).
+- Switchable waveform modes: Sine Wave, Square Wave, AM Modulated Carrier.
+- Real-time Gaussian noise injection and low-pass filter toggles with frequency slider ($1.0 - 10.0\text{ Hz}$).
+
+### 5. 💻 Interactive 8-Bit Breadboard Computer Bus Simulator
+- Step-through single-pulse clock sequencer modeling discrete 74LS TTL logic ICs.
+- Step-by-step visual bus transfers between Program Counter (PC), Memory Address Register (MAR), RAM, Instruction Register (IR), ALU, and Accumulator.
+- Interactive glowing 8-bit LED data bus strip.
+
+### 6. 📋 Engineering Collaboration Docket & Dispatch Terminal
+- Configurable inquiry parameters: Domain (Semiconductor, IoT, Quantum, Internship), Urgency, and Message.
+- Real-time carbon-spec slip preview with dynamic Ticket ID (`SRT-LAB-XXXX`), dynamic timestamp, estimated SLA response window, and sawtooth jagged cut edge.
+- Live submission powered by FormSubmit AJAX directly to `tummurisairam@gmail.com`.
+- Thermal docket print preview engine (`window.print()`).
+
+### 7. 📌 Cleanroom & Lab Logbook (Persistent Peer Blackboard)
+- Wafer-pinned laboratory blackboard with category tags (*Peer Review*, *Research Note*, *Collaboration*, *Welcome*).
+- Persistent across browser reloads using `localStorage`.
+- Visitors can pin custom notes with randomized rotation angles.
+
+### 8. 🖼️ Client-Side Photo & Certificate Swapper
+- Cleanroom badge portrait frame with client-side image uploader.
+- Dedicated Certificate Viewer modal with **"Upload My Scan"** tool: Sai Ram can upload scanned certificates or photos directly in the browser; images are cached in `localStorage` and automatically displayed across all certificate cards.
 
 ---
 
-## ☕ Key Features
+## 🎓 Verified Personal Information & Credentials
 
-### 1. 📋 Functional Barista Order Slip & Live Receipt
-- **AJAX Form Submissions:** Powered by [FormSubmit](https://formsubmit.co/) (`Accept: application/json`) to deliver inquiries directly to `mraschauhan1@gmail.com` without page refreshes or external backend dependencies.
-- **Dynamic Quick-Pick Chips:** Pre-fills specifications for *Web Crafting*, *Campus Growth*, *Cloud Systems*, or *Custom Roasts*.
-- **Sweetener & Scope Selectors:** Custom pricing and scope toggles (*Low Sugar / Quick MVP*, *Balanced Roast / Full Build*, *Double Shot / Enterprise*).
-- **Live Thermal Receipt Preview:** Updates in real time with line items, dynamic timestamps, randomized ticket ID generation, and an authentic CSS sawtooth receipt edge.
-- **Stamp & Audio Trigger:** Fires an in-browser Web Audio synthesized counter chime and stamps the receipt `[SERVED & DISPATCHED]` on completion.
-- **Fallback Email & Print:** Built-in structured `mailto:` action and thermal slip print engine (`window.print()`).
+| Category | Verified Details |
+| :--- | :--- |
+| **Full Name** | Tummuri Naga Veera Venkata Sairam (Sai Ram Tummuri) |
+| **Institution** | National Institute of Technology Andhra Pradesh (NIT AP) |
+| **Degree** | B.Tech — Electronics & Communication Engineering (2024–2028) |
+| **CGPA** | **8.0 / 10** |
+| **Class XII** | Board of Intermediate Education, AP — **94.0%** (Jan 2024) |
+| **Class X** | Board of Secondary Education, AP — **87.67%** (2022) |
+| **Location** | Ainavilli, Andhra Pradesh, India |
+| **Email** | [tummurisairam@gmail.com](mailto:tummurisairam@gmail.com) • [624183@student.nitandhra.ac.in](mailto:624183@student.nitandhra.ac.in) |
+| **Phone** | +91 91828 55181 |
+| **LinkedIn** | [linkedin.com/in/sairamtummuri](https://www.linkedin.com/in/sairamtummuri/) |
+| **GitHub** | [github.com/624183-NITAP](https://github.com/624183-NITAP) |
 
-### 2. 📌 Interactive Community Corkboard
-- Real-time post-it notes with randomized tilt angles (`--rot`) and artisan color palettes.
-- Submitting an order slip automatically pins a new ticket note to the bulletin board.
-- Persistent across page reloads using browser `localStorage`.
-- Includes pre-seeded greetings from peers and collaborators (e.g., Rohit, Devansh, Mansi).
-
-### 3. 🎵 Pure Web Audio Ambient Lofi Engine
-- Zero external MP3 or streaming bandwidth requirements.
-- Generates procedural pink noise (gentle rain) through a biquad lowpass filter.
-- Synthesizes vinyl record clicks and pops using random oscillator bursts and rapid gain ramps.
-
-### 4. 🌗 Morning Latte & Midnight Espresso Themes
-- Seamless light/dark mode switcher honoring system preference and saved `localStorage` state.
-- Tailored color palette built on espresso browns (`#140a05`, `#26160c`), creamy lattes (`#fdfbf7`, `#ede1d2`), and sage accents (`#587e66`).
-
-### 5. 🖼️ Barista Polaroid & Client-Side Image Swapper
-- Polaroid-style portrait frame with CSS paperclip accents.
-- Built-in file uploader that allows instant local image previewing and caching inside `localStorage`.
-
-### 6. 📜 Academic & Experience Showcase
-- **Classroom Roast Ledger:** Detailed academic merit records for BUIT Bhopal, School of Excellence Sidhi (90.6%), and Sarvodaya Vidya Mandir (94.8%).
-- **Specialty Roasts:** Professional roles across **Gradientts** (Campus Growth Associate Intern), **Air India Limited** (Campus Ambassador), and **Internshala** (ISP).
-- **Pantry Jars & Certifications:** Interactive skill jars showcasing competencies in HTML with AI, CSS3, Cloud Computing, Brand Management, Social Media Marketing, and Effective Leadership.
+### 🏆 Verified Achievements & Honors
+- **Rank 13 Nationwide**: IISc × Qiskit Fall Fest 2025 (*Eigen Trails / IISc Bengaluru & IBM Quantum*)
+- **Top 8% Nationwide**: ATF 2025 Stage-2 Coding Assessment Qualification
+- **Qiskit Global Summer School 2025**: IBM Quantum (Quantum Algorithms & Error Mitigation)
+- **Foundations of Quantum Error Correction**: IBM Quantum (Stabilizer Codes & Syndrome Measurement)
+- **CeNSE Summer School 2026**: Centre for Nano Science and Engineering, IISc Bengaluru
+- **WISER Summer School 2026**: Advanced Semiconductor Physics & Research
+- **SPARC–NanoX Semiconductor Fabrication Workshop**: IIT Hyderabad, Dept. of EE (Oct–Nov 2026)
+- **Internet of Things (IoT) Intern**: CoE-DMA, NIT Warangal & Siemens (June–July 2026)
+- **Executive Member**: ECE Association, NIT Andhra Pradesh
+- **Joint Secretary**: Brindavanam Club, NIT Andhra Pradesh
 
 ---
 
-## 🛠️ Tech Stack
-
-- **Markup & Semantics:** HTML5
-- **Styling:** [Tailwind CSS](https://tailwindcss.com/) (CDN) with custom extended palette
-- **Typography:** Fraunces (Headings), Plus Jakarta Sans (Body), Caveat (Script/Chalkboard), Space Mono (Receipts)
-- **Icons:** Font Awesome 6.5
-- **Audio:** Web Audio API (Synthesizers & Filters)
-- **Form Handling:** FormSubmit AJAX API
-- **State Management:** Native JavaScript (ES6+) with `localStorage`
-
----
-
-## 📁 Project Structure
+## 📁 Directory Structure
 
 ```text
-aschauhan-dev-cafe/
-│
-├── index.html                           # Complete single-file application
-├── README.md                            # Documentation
-├── IMG_20260305_015141_825_2.webp       # Default barista portrait
-└── Gemini_Generated_Image_dgbu0zdgbu0zdgbu.png  # Brand mascot logo (optional asset)
+portfolio-sample/
+├── index.html                           # Master unified portfolio application
+├── ece.html                             # Dedicated ECE Engineering landing page
+├── quantum.html                         # Dedicated Quantum Computing landing page
+├── README.md                            # Comprehensive documentation
+├── LICENSE                              # Open-source license
+├── public/
+│   └── assets/
+│       ├── profile/
+│       │   └── avatar.svg               # Vector monogram & microchip avatar
+│       ├── ece/
+│       │   ├── semiconductor/
+│       │   │   └── wafer-fab.svg        # Silicon wafer & cleanroom schematic
+│       │   ├── embedded/
+│       │   │   └── iot-internship.svg   # Industrial IoT ESP32/Node-RED diagram
+│       │   ├── digital-electronics/
+│       │   │   ├── breadboard-computer.svg # 8-bit computer architecture
+│       │   │   └── error-detection.svg  # Parity logic gate schematic
+│       │   └── signal-processing/
+│       │       └── matlab-signal.svg    # Oscilloscope & FFT spectrum graphic
+│       ├── quantum/
+│       │   └── certificates/
+│       │       ├── qiskit-summer-school-2025.svg
+│       │       ├── iisc-qiskit-fallfest-2025.svg
+│       │       ├── ibm-foundations-qec.svg
+│       │       ├── cense-iisc-2026.svg
+│       │       ├── wiser-summer-school-2026.svg
+│       │       └── techobytes-iith-quantum.svg
+│       └── resume/
+│           └── sai_ram_tummuri_resume.html # Clean printable resume
 ```
 
 ---
 
 ## 🚀 Quick Start & Local Development
 
-No Node.js runtime or build step required. The application runs immediately in any modern browser.
+No Node.js runtime or build step required. The application runs immediately in any modern web browser.
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/aschauhan-dev-cafe.git
-cd aschauhan-dev-cafe
+git clone https://github.com/624183-NITAP/portfolio-sample.git
+cd portfolio-sample
 ```
 
-### 2. Run Locally
-You can open `index.html` directly in your browser:
+### 2. Launch Local Server
+You can simply double-click `index.html` to open it in your browser, or start a local Python HTTP server:
+
 ```bash
-# macOS
-open index.html
-
-# Linux
-xdg-open index.html
-
-# Windows
-start index.html
-```
-
-Or serve via any simple local HTTP server:
-```bash
-# Using Python 3
 python -m http.server 8000
-
-# Using Node.js (npx)
-npx serve
 ```
-Then navigate to `http://localhost:8000` in your browser.
+Then visit `http://localhost:8000` in your browser.
 
 ---
 
-## 🌐 Deployment to GitHub Pages
+## 🌐 Deploy to GitHub Pages / Vercel / Netlify
 
-1. Push your code to your GitHub repository on the `main` branch:
-   ```bash
-   git add .
-   git commit -m "feat: initial release of aschauhan-dev cafe"
-   git branch -M main
-   git remote add origin https://github.com/YOUR_GITHUB_USERNAME/aschauhan-dev-cafe.git
-   git push -u origin main
-   ```
-2. Navigate to your repository on GitHub.
-3. Go to **Settings** > **Pages** (under the "Code and automation" section).
-4. Under **Build and deployment**:
-   - **Source:** Select `Deploy from a branch`.
-   - **Branch:** Select `main` and keep the directory as `/(root)`.
-5. Click **Save**. Your site will be live within 1–2 minutes at:
-   `https://YOUR_GITHUB_USERNAME.github.io/aschauhan-dev-cafe/`
+### GitHub Pages (Recommended)
+1. Push this repository to your GitHub account (`https://github.com/624183-NITAP/portfolio-sample`).
+2. Navigate to **Settings &rarr; Pages**.
+3. Under **Branch**, select `main` and root folder `/`.
+4. Click **Save**. Your site will be live at:
+   `https://624183-nitap.github.io/portfolio-sample/`
 
 ---
 
+## 🛠️ Tech Stack & Architecture
 
-## 👤 Barista Details
-
-**Adarsh Singh Chauhan**  
-*Undergraduate Computer Science & Engineering Scholar*  
-**Barkatullah University Institute of Technology (BUIT), Bhopal**
-
-- 📧 **Email:** [mraschauhan1@gmail.com](mailto:mraschauhan1@gmail.com)
-- 📸 **Instagram:** [@a.s.chauhxn](https://instagram.com/a.s.chauhxn)
-- 📍 **Location:** Bhopal, Madhya Pradesh, India
+- **Markup & Semantics**: Semantic HTML5 with ARIA accessibility labels
+- **Styling**: Tailwind CSS (CDN) with customized quantum and silicon color palettes
+- **Typography**: Fraunces (Headings), Plus Jakarta Sans (Body), Space Mono & JetBrains Mono (Code & Schematics)
+- **Vector Graphics**: Custom high-fidelity inline & standalone SVG schematics
+- **Interactive Audio**: Web Audio API (procedural synthesis, zero external sound files)
+- **Canvases**: HTML5 Canvas 2D (Oscilloscope) and 3D Vector Math (Bloch Sphere)
+- **State Management**: Native ES6+ with `localStorage` for notes, portrait, and certificate caching
+- **Form Handling**: FormSubmit AJAX API with instant client-side SLA calculation
 
 ---
 
-## 📄 License
-
-This project is open-source and available under the [MIT License](LICENSE). Feel free to fork, customize the roasts, and brew your own portfolio!
+&copy; 2026 **Sai Ram Tummuri**. National Institute of Technology Andhra Pradesh.

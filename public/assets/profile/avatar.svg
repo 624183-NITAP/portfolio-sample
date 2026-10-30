@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="avatarGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#090d16" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="50%" stop-color="#8b5cf6" />
+      <stop offset="100%" stop-color="#f59e0b" />
+    </linearGradient>
+    <pattern id="microgrid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="rgba(139, 92, 246, 0.12)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="400" height="400" fill="url(#avatarGrad)" rx="24"/>
+  <rect width="400" height="400" fill="url(#microgrid)" rx="24"/>
+  
+  <!-- Silicon Wafer / Quantum Orbit Rings -->
+  <circle cx="200" cy="180" r="140" fill="none" stroke="rgba(6, 182, 212, 0.2)" stroke-dasharray="6 6"/>
+  <circle cx="200" cy="180" r="115" fill="none" stroke="rgba(139, 92, 246, 0.3)" stroke-width="1.5"/>
+  <circle cx="200" cy="180" r="90" fill="rgba(15, 23, 42, 0.8)" stroke="url(#accentGrad)" stroke-width="2.5"/>
+  
+  <!-- Quantum Orbit Ellipses -->
+  <ellipse cx="200" cy="180" rx="130" ry="45" fill="none" stroke="rgba(6, 182, 212, 0.4)" stroke-width="1.5" transform="rotate(-25 200 180)"/>
+  <ellipse cx="200" cy="180" rx="130" ry="45" fill="none" stroke="rgba(245, 158, 11, 0.4)" stroke-width="1.5" transform="rotate(35 200 180)"/>
+  
+  <!-- Central Microchip Icon -->
+  <rect x="160" y="140" width="80" height="80" rx="8" fill="#111827" stroke="#8b5cf6" stroke-width="2"/>
+  <rect x="175" y="155" width="50" height="50" rx="4" fill="#1e1b4b" stroke="#06b6d4" stroke-width="1.5"/>
+  
+  <!-- Chip Pins -->
+  <path d="M170 140 V130 M185 140 V130 M200 140 V130 M215 140 V130 M230 140 V130" stroke="#f59e0b" stroke-width="2"/>
+  <path d="M170 220 V230 M185 220 V230 M200 220 V230 M215 220 V230 M230 220 V230" stroke="#f59e0b" stroke-width="2"/>
+  <path d="M160 150 H150 M160 165 H150 M160 180 H150 M160 195 H150 M160 210 H150" stroke="#06b6d4" stroke-width="2"/>
+  <path d="M240 150 H250 M240 165 H250 M240 180 H250 M240 195 H250 M240 210 H250" stroke="#06b6d4" stroke-width="2"/>
+  
+  <!-- Monogram Initials SRT -->
+  <text x="200" y="186" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="22" fill="#ffffff" text-anchor="middle" letter-spacing="1">SRT</text>
+  
+  <!-- Bottom Identification Plate -->
+  <rect x="40" y="325" width="320" height="50" rx="10" fill="rgba(17, 24, 39, 0.9)" stroke="rgba(255, 255, 255, 0.1)"/>
+  <text x="200" y="348" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="14" fill="#ffffff" text-anchor="middle">SAI RAM TUMMURI</text>
+  <text x="200" y="364" font-family="'Plus Jakarta Sans', sans-serif" font-weight="500" font-size="10" fill="#06b6d4" text-anchor="middle" letter-spacing="1">ECE @ NIT AP • SEMICONDUCTOR &amp; QUANTUM</text>
+</svg>

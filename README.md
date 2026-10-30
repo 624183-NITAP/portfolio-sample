@@ -1,4 +1,4 @@
-# Sai Ram Tummuri — Personal Engineering & Quantum Computing Portfolio
+# Sairam Tummuri — Personal Engineering & Quantum Computing Portfolio
 
 [![NIT Andhra Pradesh](https://img.shields.io/badge/NIT%20Andhra%20Pradesh-B.Tech%20ECE%20(2024--2028)-1e3a8a?style=for-the-badge&logo=googlescholar&logoColor=white)](https://www.nitandhra.ac.in)
 [![CGPA](https://img.shields.io/badge/CGPA-8.0%2F10-10b981?style=for-the-badge)](public/assets/resume/sai_ram_tummuri_resume.html)
@@ -7,7 +7,7 @@
 
 > *"Exploring the Intersection of Electronics, Semiconductor Technology & Quantum Computing."*
 
-A premium, interactive personal portfolio website built for **Sai Ram Tummuri** — undergraduate in **Electronics and Communication Engineering (ECE)** at the **National Institute of Technology Andhra Pradesh (NIT AP)**.
+A premium, interactive personal portfolio website built for **Sairam Tummuri** — undergraduate in **Electronics and Communication Engineering (ECE)** at the **National Institute of Technology Andhra Pradesh (NIT AP)**.
 
 ---
 
@@ -90,7 +90,7 @@ This website is engineered around two separate technical domains with distinct v
 ### 6. 📋 Engineering Collaboration Docket & Dispatch Terminal
 - Configurable inquiry parameters: Domain (Semiconductor, IoT, Quantum, Internship), Urgency, and Message.
 - Real-time carbon-spec slip preview with dynamic Ticket ID (`SRT-LAB-XXXX`), dynamic timestamp, estimated SLA response window, and sawtooth jagged cut edge.
-- Live submission powered by FormSubmit AJAX directly to `tummurisairam@gmail.com`.
+- Live submission powered by FormSubmit AJAX directly to `624183@student.nitandhra.ac.in`.
 - Thermal docket print preview engine (`window.print()`).
 
 ### 7. 📌 Cleanroom & Lab Logbook (Persistent Peer Blackboard)
@@ -108,14 +108,14 @@ This website is engineered around two separate technical domains with distinct v
 
 | Category | Verified Details |
 | :--- | :--- |
-| **Full Name** | Tummuri Naga Veera Venkata Sairam (Sai Ram Tummuri) |
+| **Full Name** | Tummuri Naga Veera Venkata Sairam (Sairam Tummuri) |
 | **Institution** | National Institute of Technology Andhra Pradesh (NIT AP) |
 | **Degree** | B.Tech — Electronics & Communication Engineering (2024–2028) |
 | **CGPA** | **8.0 / 10** |
 | **Class XII** | Board of Intermediate Education, AP — **94.0%** (Jan 2024) |
 | **Class X** | Board of Secondary Education, AP — **87.67%** (2022) |
 | **Location** | Ainavilli, Andhra Pradesh, India |
-| **Email** | [tummurisairam@gmail.com](mailto:tummurisairam@gmail.com) • [624183@student.nitandhra.ac.in](mailto:624183@student.nitandhra.ac.in) |
+| **Email** | [624183@student.nitandhra.ac.in](mailto:624183@student.nitandhra.ac.in) • [624183@student.nitandhra.ac.in](mailto:624183@student.nitandhra.ac.in) |
 | **Phone** | +91 91828 55181 |
 | **LinkedIn** | [linkedin.com/in/sairamtummuri](https://www.linkedin.com/in/sairamtummuri/) |
 | **GitHub** | [github.com/624183-NITAP](https://github.com/624183-NITAP) |
@@ -215,4 +215,4 @@ Then visit `http://localhost:8000` in your browser.
 
 ---
 
-&copy; 2026 **Sai Ram Tummuri**. National Institute of Technology Andhra Pradesh.
+&copy; 2026 **Sairam Tummuri**. National Institute of Technology Andhra Pradesh.

@@ -923,14 +923,14 @@
             
             <!-- Graphic / Wafer Cross Section Illustration -->
             <div class="lg:col-span-5 flex flex-col items-center">
-              <div class="w-full max-w-sm aspect-[4/3] rounded-xl bg-obsidian-900 border border-slate-700/80 p-4 relative flex items-center justify-center shadow-inner overflow-hidden">
-                <img id="fab-stage-img" src="public/assets/ece/semiconductor/wafer-fab.svg" alt="Wafer Fabrication Phase" class="w-full h-full object-contain">
-                <div class="absolute bottom-2 right-2 px-2 py-0.5 rounded bg-obsidian-950/80 border border-slate-800 text-[10px] font-mono text-silicon-400" id="fab-chamber-env">
+              <div class="w-full max-w-sm aspect-[4/3] rounded-xl bg-obsidian-900 border border-slate-700/80 p-2 relative flex items-center justify-center shadow-inner overflow-hidden group">
+                <img id="fab-stage-img" src="public/assets/ece/semiconductor/wafer_cleaning.jpg" alt="Wafer Fabrication Phase" class="w-full h-full object-cover rounded-lg transition-all duration-300 group-hover:scale-105">
+                <div class="absolute bottom-3 right-3 px-2 py-0.5 rounded-lg bg-obsidian-950/90 border border-slate-800 text-[10px] font-mono text-silicon-400 backdrop-blur-sm" id="fab-chamber-env">
                   Chamber: Clean Wet Bench
                 </div>
               </div>
               <span class="text-[11px] font-mono text-slate-400 mt-2 text-center" id="fab-stage-caption">
-                Silicon Wafer Cross-Section &amp; Chamber Parameters
+                Cleanroom Wet Bench &bull; RCA-1 (SC-1), Dilute HF Native Oxide Strip &amp; QDR
               </span>
             </div>
 
@@ -2384,6 +2384,8 @@
         title: "RCA-1 & RCA-2 Chemical Wafer Cleaning",
         chamber: "Chamber: Clean Wet Bench",
         temp: "Temp: 75°C - 80°C",
+        img: "public/assets/ece/semiconductor/wafer_cleaning.jpg",
+        caption: "Cleanroom Wet Bench • RCA-1 (SC-1), Dilute HF Strip & QDR",
         desc: "Rigorous RCA cleaning protocol to eliminate organic contaminants, ionic heavy metals, and particulate matter from the virgin silicon substrate. Involves NH4OH + H2O2 + H2O (SC-1) followed by native oxide strip with dilute HF and HCl + H2O2 + H2O (SC-2) to achieve pristine substrate hydrophobicity.",
         mechanisms: "Oxidation & complexation of trace ionic metals, organic stripping via nascent oxygen.",
         metrics: "Contact angle measurement, particulate counting, surface roughness < 0.2 nm.",
@@ -2393,6 +2395,8 @@
         title: "Thermal Oxidation (SiO2 Growth)",
         chamber: "Chamber: Horizontal Quartz Tube Furnace",
         temp: "Temp: 900°C - 1100°C",
+        img: "public/assets/ece/semiconductor/oxidation.jpg",
+        caption: "Horizontal Quartz Tube Furnace • High-Temperature Thermal SiO2 Growth",
         desc: "Controlled thermal oxidation to grow high-dielectric gate and field silicon dioxide (SiO2) layers. Employs dry oxidation (Si + O2 -> SiO2) for dense, pinhole-free thin gate dielectrics and wet oxidation (Si + 2H2O -> SiO2 + 2H2) for thick masking oxides guided by the Deal-Grove kinetic model.",
         mechanisms: "Diffusion of oxidant species through existing oxide lattice reacting at the Si/SiO2 interface.",
         metrics: "Oxide thickness verified via spectroscopic ellipsometry (target: 50nm - 300nm).",
@@ -2402,6 +2406,8 @@
         title: "Photolithography: UV Exposure & Alignment",
         chamber: "Chamber: Yellow Room (Class 1000)",
         temp: "Bake: 90°C softbake, 115°C hardbake",
+        img: "public/assets/ece/semiconductor/photolitho.jpg",
+        caption: "Yellow Cleanroom Lithography Bay • UV Optical Mask Aligner & Spin-Coating",
         desc: "Transfer of microcircuit geometry from CAD masks (designed in Clewin5) to the wafer. Involves HMDS vapor priming, spin-coating positive photoresist (PR), softbaking, UV alignment with an optical mask aligner (i-line 365nm), and developing with TMAH solution.",
         mechanisms: "Photo-acid generation and scission of polymers under UV radiation creating soluble exposure regions.",
         metrics: "Critical Dimension (CD) inspection under optical microscope and profilometry.",
@@ -2465,6 +2471,20 @@
           btn.className = "fab-stage-btn p-3 rounded-xl bg-obsidian-950 text-slate-300 font-medium text-left transition-all border border-slate-800 hover:border-silicon-500/40";
         }
       });
+
+      const fabImg = document.getElementById('fab-stage-img');
+      if (stage.img) {
+        fabImg.src = stage.img;
+        fabImg.className = "w-full h-full object-cover rounded-lg transition-all duration-300 group-hover:scale-105";
+      } else {
+        fabImg.src = "public/assets/ece/semiconductor/wafer-fab.svg";
+        fabImg.className = "w-full h-full object-contain rounded-lg transition-all duration-300";
+      }
+
+      const captionEl = document.getElementById('fab-stage-caption');
+      if (captionEl && stage.caption) {
+        captionEl.textContent = stage.caption;
+      }
 
       document.getElementById('fab-stage-pill').textContent = `Phase ${index + 1} / 8`;
       document.getElementById('fab-stage-temp').textContent = stage.temp;

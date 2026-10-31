@@ -429,7 +429,7 @@
               <!-- Portrait Frame with Client-Side Image Swapper & Fallback -->
               <div class="aspect-square rounded-xl overflow-hidden bg-obsidian-950 relative group border border-slate-700 shadow-inner">
                 <img id="user-portrait-img" 
-                     src="public/assets/profile/profile_photo.jpg" 
+                     src="public/assets/profile/avatar.svg" 
                      alt="Sairam Tummuri - Cleanroom &amp; Quantum Engineer" 
                      class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500">
                 
@@ -464,26 +464,6 @@
                 <span class="flex items-center gap-1.5 text-cleanroom-400">
                   <i class="fa-solid fa-circle-check text-xs"></i> Active Student
                 </span>
-              </div>
-
-              <!-- Verified Metrics Grid inside Badge -->
-              <div class="mt-4 grid grid-cols-2 gap-2 text-center">
-                <div class="p-2.5 rounded-xl bg-obsidian-950/80 border border-slate-800">
-                  <div class="font-serif text-lg font-bold text-silicon-400">Rank 13</div>
-                  <div class="text-[9px] font-mono text-slate-400 uppercase">IISc Qiskit Fest</div>
-                </div>
-                <div class="p-2.5 rounded-xl bg-obsidian-950/80 border border-slate-800">
-                  <div class="font-serif text-lg font-bold text-quantum-400">Excellence</div>
-                  <div class="text-[9px] font-mono text-slate-400 uppercase">IBM QGSS 2025</div>
-                </div>
-                <div class="p-2.5 rounded-xl bg-obsidian-950/80 border border-slate-800">
-                  <div class="font-serif text-lg font-bold text-cyanic-400">6+</div>
-                  <div class="text-[9px] font-mono text-slate-400 uppercase">Verified Certs</div>
-                </div>
-                <div class="p-2.5 rounded-xl bg-obsidian-950/80 border border-slate-800">
-                  <div class="font-serif text-lg font-bold text-cleanroom-400">8.0 / 10</div>
-                  <div class="text-[9px] font-mono text-slate-400 uppercase">NIT AP CGPA</div>
-                </div>
               </div>
 
             </div>
@@ -2966,7 +2946,7 @@
 
     function resetPortraitDefault() {
       localStorage.removeItem('srt_portrait');
-      document.getElementById('user-portrait-img').src = "public/assets/profile/profile_photo.jpg";
+      document.getElementById('user-portrait-img').src = "public/assets/profile/avatar.svg";
       document.getElementById('reset-portrait-btn').classList.add('hidden');
       playClickChime();
     }

@@ -429,7 +429,7 @@
               <!-- Portrait Frame with Client-Side Image Swapper & Fallback -->
               <div class="aspect-square rounded-xl overflow-hidden bg-obsidian-950 relative group border border-slate-700 shadow-inner">
                 <img id="user-portrait-img" 
-                     src="public/assets/profile/avatar.svg" 
+                     src="public/assets/profile/profile_photo.jpg" onerror="this.onerror=null; this.src='public/assets/profile/avatar.svg';" 
                      alt="Sairam Tummuri - Cleanroom &amp; Quantum Engineer" 
                      class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500">
                 
@@ -559,7 +559,7 @@
           </div>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
           
           <!-- B.Tech NIT AP -->
           <div class="relative p-5 rounded-xl bg-obsidian-900/80 border border-slate-700/80 flex flex-col justify-between">
@@ -603,26 +603,7 @@
             </div>
           </div>
 
-          <!-- Class X Secondary -->
-          <div class="relative p-5 rounded-xl bg-obsidian-900/80 border border-slate-700/80 flex flex-col justify-between">
-            <div>
-              <div class="flex justify-between items-start mb-2">
-                <span class="text-[10px] font-mono font-bold uppercase px-2 py-0.5 rounded bg-cyanic-500/10 text-cyanic-400 border border-cyanic-500/20">
-                  Secondary (Class X)
-                </span>
-                <span class="font-mono text-xs text-slate-400">2022</span>
-              </div>
-              <h4 class="font-serif font-bold text-base text-white">Board of Secondary Education, Andhra Pradesh</h4>
-              <p class="text-xs text-slate-300 font-medium mt-1">Secondary School Certificate (SSC)</p>
-              <p class="text-xs text-slate-400 mt-2">
-                Strong foundations in general science, foundational mathematics, analytical logic, and English communication.
-              </p>
-            </div>
-            <div class="mt-4 pt-3 border-t border-slate-800 flex items-center justify-between">
-              <span class="text-xs font-mono text-slate-400">Final Merit Score:</span>
-              <span class="font-mono text-sm font-bold text-cyanic-400 bg-obsidian-950 px-2.5 py-0.5 rounded border border-cyanic-500/30">87.67%</span>
-            </div>
-          </div>
+
 
         </div>
       </div>
@@ -2946,7 +2927,7 @@
 
     function resetPortraitDefault() {
       localStorage.removeItem('srt_portrait');
-      document.getElementById('user-portrait-img').src = "public/assets/profile/avatar.svg";
+      document.getElementById('user-portrait-img').src = "public/assets/profile/profile_photo.jpg";
       document.getElementById('reset-portrait-btn').classList.add('hidden');
       playClickChime();
     }
